@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Arial";
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*------------------------------------------ Nav Bar -----------------------------------*/
+
+nav {
+    overflow: hidden;
+    background-color: #101010;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: left;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    color: #fff
+}
+
+/*------------------------------------------ Content -----------------------------------*/
+
+.content {
+    padding-bottom: 70%;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+/*------------------------------------------ Footer --------------------------------------*/
+
+footer {
+    background-color: #101010;
+    color: #fffae1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, .button-form {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px;
+    font-size: 1.2em;
+    font-family: "advent pro", "sans serif";
+    border-radius: 8px;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.button-form {
+    font-size: 1.5em;
+    color: #fffae1;
+    background-color: #101010;
+}
+
+.button-form:hover {
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#line {
+    height: 1px;
+    width: 75%;
+    background-color: #fffae1;
+    margin: 60px auto;
+}
+
+#copyrightAndIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyrights {
+    width: 50%;
+    text-align: left;
+    padding-left: 12.5%;
+}
+
+#icons {
+    width: 100%;
+    text-align: right;
+    padding-right: 12.5%;
+}
+
+#icons a {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #fffae1;
+}
+
+#icons a:hover{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
