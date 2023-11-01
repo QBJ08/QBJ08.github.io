@@ -41,26 +41,25 @@ nav {
 
 header li {
     float: left;
-    font-size: 2.4em;
+    font-size: 1.2em;
 }
 
 header li a {
     text-decoration: none;
     display: block;
     text-align: center;
-    padding: 36px 32px;
+    padding: 18px 16px;
     color: #fff
 }
 
 /*------------------------------------------ Content -----------------------------------*/
 
 .content {
-    text-align: justify;
     padding-bottom: 70%;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 2.4em;
+    text-align: justify;
 }
 
 
@@ -73,7 +72,7 @@ header li a {
 footer {
     background-color: #101010;
     color: #fffae1;
-    padding: 40px 0 20px 0;
+    padding: 20px 0 10px 0;
     text-align: center;
 }
 
@@ -87,7 +86,7 @@ input, textarea, .button-form {
     width: 55%;
     padding: 15px 10px;
     margin: 1px;
-    font-size: 2.4em;
+    font-size: 1.2em;
     font-family: "advent pro", "sans serif";
     border-radius: 8px;
 }
@@ -98,7 +97,7 @@ textarea {
 }
 
 .button-form {
-    font-size: 3em;
+    font-size: 1.5em;
     color: #fffae1;
     background-color: #101010;
 }
@@ -113,12 +112,12 @@ textarea {
     height: 1px;
     width: 75%;
     background-color: #fffae1;
-    margin: 120px auto;
+    margin: 60px auto;
 }
 
 #copyrightAndIcons {
     display: flex;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     padding: 0 10%;
 }
 
@@ -136,8 +135,8 @@ textarea {
 
 #icons a {
     display: inline-block;
-    padding: 0 30px;
-    font-size: 2.6em;
+    padding: 0 15px;
+    font-size: 1.3em;
     color: #fffae1;
 }
 
