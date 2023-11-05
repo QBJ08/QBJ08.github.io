@@ -19,10 +19,6 @@ ul {
     padding: 0;
 }
 
-li {
-    list-style-type: none;
-}
-
 a {
     text-decoration: none;
     color: #000;
@@ -30,6 +26,10 @@ a {
 
 
 /*------------------------------------------ Nav Bar -----------------------------------*/
+
+header li {
+    list-style-type: none;
+}
 
 nav {
     overflow: hidden;
@@ -52,21 +52,42 @@ header li a {
     color: #fff
 }
 
+header li a::hover {
+    transform: scale(1.25);
+    transition: 0.1s;
+}
+
 /*------------------------------------------ Content -----------------------------------*/
 
 .content {
-    padding-bottom: 70%;
+    padding-bottom: 5%;
     padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     text-align: justify;
     font-size: 1.5em;
 }
 
+.biographie {
+    padding-top: 0%;
+    padding: 5%;
+}
 
+.face {
+    width: 300px;
+}
 
+i {
+    font-size: 0.7em;
+}
 
+#sources li {
+    padding-left: 2%;
+}
 
+#sources a {
+    text-decoration: underline;
+}
 
 /*------------------------------------------ Footer --------------------------------------*/
 
