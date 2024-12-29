@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+}
+
+html { 
+    font-size: 20px; 
+}
+
+header {
+    height: 7em;
+    background-image: url('../images/blahaj_banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+header h1 {
+    color: #25bec4;
+}
+
+nav {
+    margin-top: 0;
+    height: 100%;
+    background-color: #146180;
+    padding: 1em;
+}
+
+nav li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+a {
+    text-decoration: none;
+    color: #74EAFF;
+    font-weight: bolder;
+}
+
+.content a {
+    color: #146180;
+}
+
+h1{
+    font-size: 2rem; 
+    padding-top: 1rem;  
+}
+
+h2{
+    font-size: 1.5rem;
+    border: 1px solid #aaa;
+    text-align:center;
+    border-radius: 20px;
+}
+
+h3 {
+    margin-top: 1em;
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    height: 100%;
+}
+
+.content {
+    margin: 1em;
+}
+
+.presentation {
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #74EAFF;
+    color: #5B92B4;
+    border-radius: 50px;
+    font-size: medium;
+    position: relative;
+    margin-bottom: 20em;
+}
+
+.presentation h3 {
+    font-size: medium;
+}
+
+.presentation-img {
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.presentation-img img {
+    border-radius: 20px;
+}
+
+.presentation-text {
+    margin: 0;
+    margin-left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #146180;
+    color: #5B92B4;
+    height: 4em;
+    padding: 0 1em; 
+}
+
+footer ul {
+    display: flex;
+    gap: 2em;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+footer #blahaj {
+    margin-left: auto; 
+}
